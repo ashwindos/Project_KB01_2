@@ -1,67 +1,20 @@
-﻿Build started 8-12-2014 13:54:21.
-     1>Project "C:\Users\Evert\Documents\Visual Studio 2010\Projects\Project_KB01_2\GameEngine\GameEngine.vcxproj" on node 2 (build target(s)).
+﻿Build started 2014-12-08 14:21:09.
+     1>Project "C:\Users\sha\Desktop\kb01\Project_KB01_2\GameEngine\GameEngine.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\GameEngine.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Camera.cpp D3dtest.cpp DirectX.cpp Entity.cpp GameEngine.cpp Ground.cpp HeightMap.cpp Kernel.cpp Logger.cpp Mesh.cpp Model.cpp Resource.cpp ResourceController.cpp Scene.cpp SceneController.cpp Skybox.cpp Texture.cpp Window.cpp
-         Window.cpp
-         Texture.cpp
-         Skybox.cpp
-         SceneController.cpp
-         Scene.cpp
-         ResourceController.cpp
-         Resource.cpp
-         Model.cpp
-         Mesh.cpp
-         Logger.cpp
-     1>c:\users\evert\documents\visual studio 2010\projects\project_kb01_2\gameengine\logger.cpp(23): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(112) : see declaration of 'localtime'
-     1>c:\users\evert\documents\visual studio 2010\projects\project_kb01_2\gameengine\logger.cpp(33): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(112) : see declaration of 'localtime'
-     1>c:\users\evert\documents\visual studio 2010\projects\project_kb01_2\gameengine\logger.cpp(43): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(112) : see declaration of 'localtime'
-         Kernel.cpp
-         HeightMap.cpp
-         Ground.cpp
-         GameEngine.cpp
-         Entity.cpp
-         DirectX.cpp
-         D3dtest.cpp
-         Camera.cpp
-         Generating Code...
+         All outputs are up-to-date.
        ManifestResourceCompile:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\GameEngine.exe.embed.manifest.res" Debug\GameEngine_manifest.rc 
+         All outputs are up-to-date.
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Evert\Documents\Visual Studio 2010\Projects\Project_KB01_2\Debug\GameEngine.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\GameEngine.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Evert\Documents\Visual Studio 2010\Projects\Project_KB01_2\Debug\GameEngine.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Evert\Documents\Visual Studio 2010\Projects\Project_KB01_2\Debug\GameEngine.lib" /MACHINE:X86 Debug\GameEngine.exe.embed.manifest.res
-         Debug\Camera.obj
-         Debug\D3dtest.obj
-         Debug\DirectX.obj
-         Debug\Entity.obj
-         Debug\GameEngine.obj
-         Debug\Ground.obj
-         Debug\HeightMap.obj
-         Debug\Kernel.obj
-         Debug\Logger.obj
-         Debug\Mesh.obj
-         Debug\Model.obj
-         Debug\Resource.obj
-         Debug\ResourceController.obj
-         Debug\Scene.obj
-         Debug\SceneController.obj
-         Debug\Skybox.obj
-         Debug\Texture.obj
-         Debug\Window.obj
+         All outputs are up-to-date.
        Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\GameEngine.exe.embed.manifest" /manifest Debug\GameEngine.exe.intermediate.manifest
          All outputs are up-to-date.
-       LinkEmbedManifest:
-         All outputs are up-to-date.
-         GameEngine.vcxproj -> C:\Users\Evert\Documents\Visual Studio 2010\Projects\Project_KB01_2\Debug\GameEngine.exe
        FinalizeBuildStatus:
          Deleting file "Debug\GameEngine.unsuccessfulbuild".
          Touching "Debug\GameEngine.lastbuildstate".
-     1>Done Building Project "C:\Users\Evert\Documents\Visual Studio 2010\Projects\Project_KB01_2\GameEngine\GameEngine.vcxproj" (build target(s)).
+     1>Done Building Project "C:\Users\sha\Desktop\kb01\Project_KB01_2\GameEngine\GameEngine.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:10.84
+Time Elapsed 00:00:00.19
