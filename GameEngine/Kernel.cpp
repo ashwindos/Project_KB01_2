@@ -3,6 +3,7 @@
 
 Kernel::Kernel(void)
 {
+	Initialize();
 }
 
 
@@ -12,13 +13,20 @@ Kernel::~Kernel(void)
 
 void Kernel::Run(HINSTANCE hInstance, int iCmdShow)
 {
-	//WindowController* w = new WindowController();
-	SceneController* s = new SceneController();
-	w = new WindowController();
+	
+   
 	w->MakeWindow(hInstance, iCmdShow);
 	s->MakeScene();
 
-	Logger* r = new Logger();
-	r->Log("Fawaka kernel");
+	
+	l->Log("Fawaka kernel");
+}
+
+void Kernel::Initialize()
+{	
+	l = new Logger();
+	s = new SceneController();
+	w = new WindowController();
+	r = new ResourceController();
 }
 
