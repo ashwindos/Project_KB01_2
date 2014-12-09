@@ -1,4 +1,5 @@
 GameEngine.opensdf
+
 *.obj
 *.tlog
 *.tlog
@@ -6,14 +7,17 @@ GameEngine.opensdf
 *.obj
 *.tlog
 *.obj
+
 *.sdf
+
 *.exe
 *.tlog
 GameEngine.sdf
 *.sdf
+
 *.suo
 *.sdf
 *.obj
 *.log
-Debug/GameEngine.exe
-*.obj
+GameEngine.sdf
+GameEngine.sdf

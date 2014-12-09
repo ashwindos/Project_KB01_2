@@ -12,10 +12,9 @@ Kernel::~Kernel(void)
 
 void Kernel::Run(HINSTANCE hInstance, int iCmdShow)
 {
-	
-    s = new SceneController();
+	//WindowController* w = new WindowController();
+	SceneController* s = new SceneController();
 	w = new WindowController();
-	r = new ResourceController();
 	w->MakeWindow(hInstance, iCmdShow);
 	s->MakeScene();
 
