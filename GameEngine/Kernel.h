@@ -19,8 +19,8 @@ public:
 
 private:
 	WindowController* w;
-	//SceneController* s;
-	//ResourceController* r;
+	SceneController* s;
+	ResourceController* r;
 };
 #endif
 
