@@ -2,7 +2,8 @@
 #include <windows.h>
 #include <string>
 #include <d3d9.h>
-#include "D3dtest.h"
+#include "Renderer.h"
+#include "DirectX.h" 
 
 LRESULT CALLBACK WndProc( HWND hwnd, UINT message, WPARAM wparam, LPARAM lparam );
 
@@ -10,7 +11,7 @@ LRESULT CALLBACK WndProc( HWND hwnd, UINT message, WPARAM wparam, LPARAM lparam 
 Window::Window(HINSTANCE hInstance, int iCmdShow)
 {
 	
-	D3dtest* d = new D3dtest();
+	Renderer* d = new DirectX();
 	init(hInstance, iCmdShow, d);
 }
 
@@ -18,7 +19,7 @@ Window::Window(HINSTANCE hInstance, int iCmdShow)
 
 int Window::init( HINSTANCE hInstance,  
                     int iCmdShow,
-					D3dtest *d)    
+					Renderer *d)    
 {
    
     WNDCLASS wc;
@@ -55,7 +56,7 @@ int Window::init( HINSTANCE hInstance,
         TranslateMessage( &msg );
        
         DispatchMessage( &msg );   
-	d->render_frame();
+	d->Render();
         
     }
 	d->cleanD3D();

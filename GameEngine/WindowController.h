@@ -1,3 +1,5 @@
+#ifndef __WINDOWCONTROLLER_H_
+#define __WINDOWCONTROLLER_H_
 #include "Window.h"
 #include <Windows.h>
 
@@ -8,4 +10,4 @@ public:
 	~WindowController(void);
 	void MakeWindow(HINSTANCE,int);
 };
-
+#endif

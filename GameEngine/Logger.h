@@ -1,3 +1,5 @@
+#ifndef __LOGGER_H_
+#define __LOGGER_H_
 #include <string>
 
 class Logger
@@ -15,3 +17,4 @@ public:
 	/// Appends a float to log.txt, includes the time of the log.
 	void Log(float);
 };
+#endif

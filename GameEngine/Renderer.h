@@ -1,11 +1,16 @@
+#ifndef __RENDERER_H_
+#define __RENDERER_H_
 #include "Entity.h"
+#include <Windows.h>
 
-#ifndef RENDERER_H
-#define RENDERER_H
+
 class Renderer
 {
 public:
-	virtual ~Renderer(void);
-	virtual void Render(Entity);
+	Renderer(){}
+	virtual ~Renderer(){}
+	virtual void Render()= 0;;
+	virtual void initD3D(HWND)= 0; 
+	virtual void cleanD3D(void)= 0;
 };
 #endif
