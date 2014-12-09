@@ -18,9 +18,11 @@ public:
 	void Run(HINSTANCE, int);
 
 private:
+	void Initialize();
+	Logger* l;
 	WindowController* w;
-	//SceneController* s;
-	//ResourceController* r;
+	SceneController* s;
+	ResourceController* r;
 };
 #endif
 

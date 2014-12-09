@@ -24,6 +24,7 @@ void Logger::Log(std::string _text)
 	outfile << '[' << std::put_time(&tm, "%c") << "] " << _text << std::endl;
 }
 
+
 void Logger::Log(int _text)
 {
 	std::ofstream outfile;
