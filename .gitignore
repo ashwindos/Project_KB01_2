@@ -10,7 +10,15 @@ GameEngine.opensdf
 =======
 *.sdf
 >>>>>>> efcf11b8411b73d84afc586c3946676b2fa1abf1
+<<<<<<< HEAD
 *.exe
 *.tlog
 GameEngine.sdf
 *.sdf
+=======
+*.suo
+*.sdf
+*.obj
+*.log
+>>>>>>> 290b5ac213efe4e594c867dc4e6587fc9488c0a2
+GameEngine/Kernel.cpp
