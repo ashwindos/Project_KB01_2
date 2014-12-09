@@ -17,3 +17,9 @@
 [12/08/14 15:11:40] Fawaka kernel
 [12/08/14 15:12:32] Hello World!
 [12/08/14 15:12:39] Fawaka kernel
+[12/08/14 15:27:29] Hello World!
+[12/08/14 15:27:33] Fawaka kernel
+[12/08/14 15:37:32] Hello World!
+[12/08/14 15:37:34] goed man , goed  kernel
+[12/09/14 11:32:10] Hello World!
+[12/09/14 11:32:15] goed man , goed  kernel

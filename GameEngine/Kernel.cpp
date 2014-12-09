@@ -1,8 +1,5 @@
 #include "Kernel.h"
-#include "WindowController.h"
-#include <Windows.h>
-#include "Logger.h"
-#include <iostream>
+
 
 Kernel::Kernel(void)
 {
@@ -19,6 +16,13 @@ void Kernel::Run(HINSTANCE hInstance, int iCmdShow)
 	w->MakeWindow(hInstance, iCmdShow);
 
 	Logger* r = new Logger();
-	r->Log("Fawaka kernel");
+	r->Log("goed man , goed  kernel");
+}
+
+void Kernel :: Initialize()
+{
+	windowController = new WindowController();
+	sceneController = new SceneController();
+	rescourceController = new ResourceController();
 }
 
