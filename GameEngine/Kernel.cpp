@@ -25,6 +25,7 @@ void Kernel::Run()
 void Kernel::Update()
 {
 	l->Log("Updated!");
+	s->RefreshAll();
 }
 
 void Kernel::Initialize(HINSTANCE hInstance, int iCmdShow)
