@@ -1,0 +1,60 @@
+﻿Merge branch 'master' of https://github.com/ashwindos/Project_KB01_2
+
+Conflicts:
+	GameEngine.sdf
+	GameEngine.suo
+	GameEngine/WindowController.h
+	ipch/gameengine-e1c4430a/gameengine-c39335c.ipch
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 1 and 4 different commits each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# All conflicts fixed but you are still merging.
+#
+# Changes to be committed:
+#	modified:   .gitignore
+#	modified:   Debug/GameEngine.exe
+#	modified:   Debug/GameEngine.ilk
+#	modified:   Debug/GameEngine.pdb
+#	modified:   GameEngine/Debug/CL.write.1.tlog
+#	modified:   GameEngine/Debug/Camera.obj
+#	modified:   GameEngine/Debug/DirectX.obj
+#	modified:   GameEngine/Debug/Entity.obj
+#	modified:   GameEngine/Debug/GameEngine.lastbuildstate
+#	modified:   GameEngine/Debug/GameEngine.log
+#	modified:   GameEngine/Debug/GameEngine.obj
+#	modified:   GameEngine/Debug/Ground.obj
+#	modified:   GameEngine/Debug/HeightMap.obj
+#	modified:   GameEngine/Debug/Kernel.obj
+#	modified:   GameEngine/Debug/Logger.obj
+#	modified:   GameEngine/Debug/Mesh.obj
+#	modified:   GameEngine/Debug/Model.obj
+#	modified:   GameEngine/Debug/Resource.obj
+#	modified:   GameEngine/Debug/ResourceController.obj
+#	modified:   GameEngine/Debug/Scene.obj
+#	modified:   GameEngine/Debug/SceneController.obj
+#	modified:   GameEngine/Debug/Skybox.obj
+#	modified:   GameEngine/Debug/Texture.obj
+#	modified:   GameEngine/Debug/Window.obj
+#	modified:   GameEngine/Debug/vc100.idb
+#	modified:   GameEngine/Debug/vc100.pdb
+#	modified:   GameEngine/Kernel.cpp
+#	modified:   GameEngine/Kernel.h
+#	modified:   GameEngine/Logger.cpp
+#	modified:   GameEngine/Logger.h
+#	modified:   GameEngine/WindowController.h
+#	modified:   GameEngine/log.txt
+#	new file:   enc_temp_folder/encA45F.tmp
+#	modified:   ipch/gameengine-10393226/gameengine-c39335c.ipch
+#
+

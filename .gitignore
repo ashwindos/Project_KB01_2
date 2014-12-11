@@ -19,3 +19,4 @@ Debug/GameEngine.exe
 *.obj
 *.tlog
 *.obj
+*.ipch
