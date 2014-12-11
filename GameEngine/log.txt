@@ -37,3 +37,7 @@
 [12/09/14 13:12:03] Hello World!
 [12/09/14 13:12:50] Initialize this shit Kernel
 [12/09/14 13:12:50] Hello World!
+[12/11/14 11:52:38] Hello World!
+[12/11/14 11:52:43] Fawaka kernel
+[12/11/14 12:51:16] Hello World!
+[12/11/14 12:53:45] Fawaka kernel

@@ -6,6 +6,7 @@
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR szCmdline, int iCmdShow)    
 {
+	
 	 Logger* r = new Logger();
 	 Kernel* k = new Kernel();
 	 r->Log("Hello World!");

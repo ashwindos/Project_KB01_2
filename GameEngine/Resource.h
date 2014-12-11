@@ -4,6 +4,11 @@ class Resource
 {
 public:
 	virtual ~Resource(void);
+
+private:
+	std::string path;
+	void Init(std::string);
+
 };
 
 #endif

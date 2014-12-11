@@ -1,25 +1,14 @@
-﻿Build started 2014-12-09 13:12:47.
-     1>Project "C:\Users\sha\Desktop\kb01\Project_KB01_2\GameEngine\GameEngine.vcxproj" on node 2 (build target(s)).
+﻿Build started 11-12-2014 12:51:05.
+     1>Project "C:\Users\Ashwin\Desktop\Project_KB01_2\GameEngine\GameEngine.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\GameEngine.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GameEngine.cpp Kernel.cpp Logger.cpp
-         Logger.cpp
-     1>c:\users\sha\desktop\kb01\project_kb01_2\gameengine\logger.cpp(23): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(112) : see declaration of 'localtime'
-     1>c:\users\sha\desktop\kb01\project_kb01_2\gameengine\logger.cpp(34): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(112) : see declaration of 'localtime'
-     1>c:\users\sha\desktop\kb01\project_kb01_2\gameengine\logger.cpp(44): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(112) : see declaration of 'localtime'
-         Kernel.cpp
-         Generating Code...
-         Compiling...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GameEngine.cpp
          GameEngine.cpp
-         Generating Code...
        ManifestResourceCompile:
          All outputs are up-to-date.
        Link:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\sha\Desktop\kb01\Project_KB01_2\Debug\GameEngine.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\GameEngine.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\sha\Desktop\kb01\Project_KB01_2\Debug\GameEngine.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\sha\Desktop\kb01\Project_KB01_2\Debug\GameEngine.lib" /MACHINE:X86 Debug\GameEngine.exe.embed.manifest.res
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ashwin\Desktop\Project_KB01_2\Debug\GameEngine.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\GameEngine.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Ashwin\Desktop\Project_KB01_2\Debug\GameEngine.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Ashwin\Desktop\Project_KB01_2\Debug\GameEngine.lib" /MACHINE:X86 Debug\GameEngine.exe.embed.manifest.res
          Debug\Camera.obj
          Debug\DirectX.obj
          Debug\Entity.obj
@@ -43,12 +32,12 @@
          All outputs are up-to-date.
        LinkEmbedManifest:
          All outputs are up-to-date.
-         GameEngine.vcxproj -> C:\Users\sha\Desktop\kb01\Project_KB01_2\Debug\GameEngine.exe
+         GameEngine.vcxproj -> C:\Users\Ashwin\Desktop\Project_KB01_2\Debug\GameEngine.exe
        FinalizeBuildStatus:
          Deleting file "Debug\GameEngine.unsuccessfulbuild".
          Touching "Debug\GameEngine.lastbuildstate".
-     1>Done Building Project "C:\Users\sha\Desktop\kb01\Project_KB01_2\GameEngine\GameEngine.vcxproj" (build target(s)).
+     1>Done Building Project "C:\Users\Ashwin\Desktop\Project_KB01_2\GameEngine\GameEngine.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:03.02
+Time Elapsed 00:00:08.03

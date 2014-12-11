@@ -15,5 +15,10 @@ GameEngine.sdf
 *.sdf
 *.obj
 *.log
-Debug/GameEngine.exe
+/Debug
 *.obj
+*.obj
+*.pdb
+*.tlog
+*.idb
+*.ipch
