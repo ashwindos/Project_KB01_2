@@ -8,17 +8,22 @@
 #include "ResourceController.h"
 #include <iostream>
 
-
-
 class Kernel
 {
 public:
-	Kernel(void);
+	Kernel(HINSTANCE, int);
 	~Kernel(void);
-	void Run(HINSTANCE, int);
+
+	/// Call this function to start the engine.
+	/// The game loop is located here.
+	void Run();
 
 private:
-	void Initialize();
+	void Initialize(HINSTANCE, int);
+
+	/// This function is called every turn by the game loop.
+	void Update(void);
+
 	Logger* l;
 	WindowController* w;
 	SceneController* s;

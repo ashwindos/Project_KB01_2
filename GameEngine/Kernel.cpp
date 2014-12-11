@@ -1,32 +1,40 @@
 #include "Kernel.h"
 #include <iostream>
+#include <Windows.h>
+#include <process.h>
+#include <stdio.h>
 
-Kernel::Kernel(void)
+Kernel::Kernel(HINSTANCE hInstance, int iCmdShow)
 {
-	Initialize();
+	Initialize(hInstance, iCmdShow);
 }
-
 
 Kernel::~Kernel(void)
 {
 }
 
-void Kernel::Run(HINSTANCE hInstance, int iCmdShow)
+void Kernel::Run()
 {
-	
-   
-	w->MakeWindow(hInstance, iCmdShow);
-	s->MakeScene();
-
-	
-	l->Log("Fawaka kernel");
+	while(true)
+	{
+		Update();
+		Sleep(33);
+	}
 }
 
-void Kernel::Initialize()
+void Kernel::Update()
+{
+	l->Log("Updated!");
+}
+
+void Kernel::Initialize(HINSTANCE hInstance, int iCmdShow)
 {	
 	l = new Logger();
 	s = new SceneController();
 	w = new WindowController();
 	r = new ResourceController();
+
+	w->MakeWindow(hInstance, iCmdShow);
+	s->MakeScene();
 }
 

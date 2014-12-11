@@ -17,8 +17,13 @@ GameEngine.sdf
 *.log
 /Debug
 *.obj
+<<<<<<< HEAD
 *.obj
 *.pdb
 *.tlog
 *.idb
+=======
+*.tlog
+*.obj
+>>>>>>> a423264690ff54d8d93ecb36690ab290a3059265
 *.ipch

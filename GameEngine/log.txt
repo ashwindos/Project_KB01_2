@@ -37,7 +37,85 @@
 [12/09/14 13:12:03] Hello World!
 [12/09/14 13:12:50] Initialize this shit Kernel
 [12/09/14 13:12:50] Hello World!
+<<<<<<< HEAD
 [12/11/14 11:52:38] Hello World!
 [12/11/14 11:52:43] Fawaka kernel
 [12/11/14 12:51:16] Hello World!
 [12/11/14 12:53:45] Fawaka kernel
+=======
+[12/09/14 13:16:44] Fawaka kernel
+[12/10/14 12:21:45] Hello World!
+[12/10/14 12:21:49] Fawaka kernel
+[12/10/14 12:22:02] Hello World!
+[12/10/14 12:22:05] Fawaka kernel
+[12/11/14 13:04:34] Hello World!
+[12/11/14 13:04:34] Init de window
+[12/11/14 13:04:38] Fawaka kernel
+[12/11/14 13:05:15] Hello World!
+[12/11/14 13:05:15] Init de window
+[12/11/14 13:05:18] Fawaka kernel
+[12/11/14 13:06:56] Hello World!
+[12/11/14 13:06:56] Init de window
+[12/11/14 13:06:57] Fawaka kernel
+[12/11/14 13:08:33] Hello World!
+[12/11/14 13:08:33] Init de window
+[12/11/14 13:11:05] Hello World!
+[12/11/14 13:11:05] Init de window
+[12/11/14 13:11:11] Fawaka kernel
+[12/11/14 13:11:56] Hello World!
+[12/11/14 13:11:56] Init de window
+[12/11/14 13:11:56] Vertices aangemaakt
+[12/11/14 13:11:57] Fawaka kernel
+[12/11/14 13:13:54] Hello World!
+[12/11/14 13:13:54] Init de window
+[12/11/14 13:13:54] Vertices aangemaakt
+[12/11/14 13:13:58] Fawaka kernel
+[12/11/14 13:48:05] Hello World!
+[12/11/14 13:48:05] Init de window
+[12/11/14 13:48:05] Vertices aangemaakt
+[12/11/14 13:48:09] Fawaka kernel
+[12/11/14 13:52:00] Hello World!
+[12/11/14 13:52:00] Init de window
+[12/11/14 13:52:00] Vertices aangemaakt
+[12/11/14 13:52:01] Fawaka kernel
+[12/11/14 13:52:16] Hello World!
+[12/11/14 13:52:16] Init de window
+[12/11/14 13:52:16] Vertices aangemaakt
+[12/11/14 13:52:17] Fawaka kernel
+[12/11/14 13:53:50] Hello World!
+[12/11/14 13:53:50] Init de window
+[12/11/14 13:53:50] Vertices aangemaakt
+[12/11/14 13:53:52] Fawaka kernel
+[12/11/14 13:56:34] Hello World!
+[12/11/14 13:56:34] Init de window
+[12/11/14 13:56:34] Vertices aangemaakt
+[12/11/14 13:56:35] Fawaka kernel
+[12/11/14 13:59:03] Hello World!
+[12/11/14 13:59:03] Init de window
+[12/11/14 13:59:03] Vertices aangemaakt
+[12/11/14 13:59:07] Fawaka kernel
+[12/11/14 14:05:09] Hello World!
+[12/11/14 14:05:09] Init de window
+[12/11/14 14:05:22] Fawaka kernel
+[12/11/14 14:07:59] Hello World!
+[12/11/14 14:07:59] Init de window
+[12/11/14 14:08:00] Fawaka kernel
+[12/11/14 14:12:41] Hello World!
+[12/11/14 14:12:41] Init de window
+[12/11/14 14:12:43] Fawaka kernel
+[12/11/14 14:12:53] Hello World!
+[12/11/14 14:12:53] Init de window
+[12/11/14 14:12:54] Fawaka kernel
+[12/11/14 14:13:03] Hello World!
+[12/11/14 14:13:03] Init de window
+[12/11/14 14:13:04] Fawaka kernel
+[12/11/14 14:22:55] Hello World!
+[12/11/14 14:22:55] Init de window
+[12/11/14 14:23:03] Fawaka kernel
+[12/11/14 14:23:18] Hello World!
+[12/11/14 14:23:18] Init de window
+[12/11/14 14:23:20] Fawaka kernel
+[12/11/14 14:29:13] Hello World!
+[12/11/14 14:29:13] Init de window
+[12/11/14 14:29:16] Fawaka kernel
+>>>>>>> a423264690ff54d8d93ecb36690ab290a3059265

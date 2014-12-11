@@ -10,7 +10,7 @@ LRESULT CALLBACK WndProc( HWND hwnd, UINT message, WPARAM wparam, LPARAM lparam 
 
 Window::Window(HINSTANCE hInstance, int iCmdShow)
 {
-	
+	r = new Logger();
 	Renderer* d = new DirectX();
 	init(hInstance, iCmdShow, d);
 }
@@ -38,31 +38,38 @@ int Window::init( HINSTANCE hInstance,
     RegisterClass( &wc );
      
     
-	HWND hwnd = CreateWindow(TEXT ("Test"), TEXT("Test Scherm"), WS_OVERLAPPEDWINDOW, 50, 50, 700, 500, NULL, NULL, hInstance, NULL);
+	HWND hwnd = CreateWindow( L"Test", L"Test Scherm", WS_OVERLAPPEDWINDOW, 50, 50, 700, 500, NULL, NULL, hInstance, NULL);
   
 
-    ShowWindow(hwnd, iCmdShow );
-	 d->initD3D(hwnd);
-    UpdateWindow(hwnd);
    
- 
+	
+    d->initD3D(hwnd);
+	 if( SUCCEEDED(d->InitGeometry()))
+	 {
+    ShowWindow(hwnd, iCmdShow );
+    UpdateWindow(hwnd);
+
+     // Enter the message loop
+            MSG msg;
+            ZeroMemory( &msg, sizeof( msg ) );
     
- 
-    MSG msg;
-    
-    while( GetMessage( &msg, NULL, 0, 0 ) )
-    {
-        
-        TranslateMessage( &msg );
-       
-        DispatchMessage( &msg );   
-	d->Render();
-        
-    }
-	d->cleanD3D();
-   return msg.wParam; 
+         while( msg.message != WM_QUIT )
+            {
+                if( PeekMessage( &msg, NULL, 0U, 0U, PM_REMOVE ) )
+                {
+                    TranslateMessage( &msg );
+                    DispatchMessage( &msg );
+                }
+                else
+                    d->Render();
+            }
+		
+	 }
+	 UnregisterClass( L"Test", wc.hInstance );
+   return 0;
+		
+	
 }
- 
 LRESULT CALLBACK WndProc(   HWND hwnd,
                             UINT message,
                             WPARAM wparam,
