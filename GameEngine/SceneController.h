@@ -1,6 +1,7 @@
 #ifndef __SCENECONTROLLER_H_
 #define __SCENECONTROLLER_H_
 
+#include "Scene.h"
 #include <vector>
 #include "Scene.h"
 
@@ -12,6 +13,6 @@ public:
 	void MakeScene(void);
 	void RefreshAll(void);
 private:
-	std::vector<Scene>* Scenes;
+	std::vector<Scene*>* Scenes;
 };
 #endif

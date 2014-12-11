@@ -1,29 +1,13 @@
-GameEngine.opensdf
+*.opensdf
 *.obj
-*.tlog
 *.tlog
 *.log
-*.obj
-*.tlog
-*.obj
 *.sdf
 *.exe
-*.tlog
-GameEngine.sdf
-*.sdf
 *.suo
-*.sdf
-*.obj
-*.log
-/Debug
-*.obj
-<<<<<<< HEAD
-*.obj
-*.pdb
-*.tlog
-*.idb
-=======
-*.tlog
-*.obj
->>>>>>> a423264690ff54d8d93ecb36690ab290a3059265
+GameEngine/Debug/
 *.ipch
+GameEngine/Release/
+/Debug/
+/Release/
+/ipch/

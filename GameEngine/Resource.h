@@ -1,5 +1,6 @@
 #ifndef __RESOURCE_H_
 #define __RESOURCE_H_
+#include <string>
 class Resource
 {
 public:

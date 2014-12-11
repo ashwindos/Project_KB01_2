@@ -119,3 +119,8 @@
 [12/11/14 14:29:13] Init de window
 [12/11/14 14:29:16] Fawaka kernel
 >>>>>>> a423264690ff54d8d93ecb36690ab290a3059265
+[12/11/14 15:07:25] Init de window
+[12/11/14 15:08:49] Init de window
+[12/11/14 15:09:10] Init de window
+[12/11/14 15:16:52] Init de window
+[12/11/14 15:25:47] Init de window
