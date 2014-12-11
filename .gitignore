@@ -17,3 +17,5 @@ GameEngine.sdf
 *.log
 Debug/GameEngine.exe
 *.obj
+*.tlog
+*.obj

@@ -7,10 +7,13 @@
 class Renderer
 {
 public:
+
+
 	Renderer(){}
 	virtual ~Renderer(){}
 	virtual void Render()= 0;;
 	virtual void initD3D(HWND)= 0; 
 	virtual void cleanD3D(void)= 0;
+	virtual HRESULT InitGeometry()= 0;
 };
 #endif
