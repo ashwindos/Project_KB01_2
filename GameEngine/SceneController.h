@@ -2,6 +2,7 @@
 #define __SCENECONTROLLER_H_
 
 #include <vector>
+#include "Scene.h"
 
 class SceneController
 {

@@ -8,7 +8,8 @@ SceneController::SceneController(void)
 
 void SceneController::MakeScene()
 {
-	Scenes->push_back(new Scene());
+	Scene* s = new Scene();
+	Scenes->push_back(*s);
 }
 
 void SceneController::RefreshAll()
