@@ -5,7 +5,7 @@
 
 WindowController::WindowController(void)
 {
-	this->Windows = new std::vector<Window*>();
+	Windows = new std::vector<Window*>();
 }
 
 void WindowController::MakeWindow(HINSTANCE hInstance, int iCmdShow)

@@ -4,7 +4,7 @@
 
 SceneController::SceneController(void)
 {
-	this->Scenes = new std::vector<Scene*>();
+	Scenes = new std::vector<Scene*>();
 }
 
 void SceneController::MakeScene()
