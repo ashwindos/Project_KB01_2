@@ -124,3 +124,17 @@
 [12/11/14 15:09:10] Init de window
 [12/11/14 15:16:52] Init de window
 [12/11/14 15:25:47] Init de window
+[12/11/14 15:34:31] Init de window
+[12/12/14 11:30:55] Init de window
+[12/12/14 11:32:57] Init de window
+[12/12/14 11:56:40] Init de window
+[12/12/14 12:18:57] Hello World!
+[12/12/14 12:18:57] Kernel.Update()
+[12/12/14 12:18:57] SceneController.RefreshAll()
+[12/12/14 12:18:57] Scene gerefreshed
+[12/12/14 12:18:57] Scene gerefreshed
+[12/12/14 12:18:57] Scene gerefreshed
+[12/12/14 12:33:37] Hello World!
+[12/12/14 12:34:09] Hello World!
+[12/12/14 12:34:52] Init de window
+[12/12/14 12:34:55] Hello World!

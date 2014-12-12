@@ -11,6 +11,10 @@ Kernel::Kernel(HINSTANCE hInstance, int iCmdShow)
 
 Kernel::~Kernel(void)
 {
+	delete l;
+	delete s;
+	delete w;
+	delete r;
 }
 
 void Kernel::Run()
@@ -24,7 +28,6 @@ void Kernel::Run()
 
 void Kernel::Update()
 {
-	l->Log("Updated!");
 	s->RefreshAll();
 }
 
