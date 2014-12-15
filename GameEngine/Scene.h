@@ -5,6 +5,8 @@ class Scene
 public:
 	Scene(void);
 	~Scene(void);
+
+	/// Calls Draw() for each entity in the scene.
 	void Refresh();
 };
 #endif
