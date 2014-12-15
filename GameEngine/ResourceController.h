@@ -7,17 +7,23 @@
 #include <iomanip>
 #include <ctime>
 #include <Windows.h>
+#include <map>
 class ResourceController
 {
 public:
+
 	ResourceController(void);
 	~ResourceController(void);
-	void OpenFile();
-	void CloseFile();
-	void DeleteFile(Resource);
-	void SearchFile();
-	HGLOBAL WINAPI LoadResource( _In_opt_  HMODULE hModule, _In_ HRSRC hResInfo);
+	void OpenFile(std::string);
+	void DeleteFile(Resource*);
+	void SearchFile(std::string);
+	bool isLoaded(std::string);
 
+private:
+	std::map<std::string, Resource*> _LoadedResources;
+	void addToloadedResources(std::string, Resource*);
+	void deleteFromLoadedResources(std::string);
+	void searchInloadedResources(std::string);
 };
 #endif
 

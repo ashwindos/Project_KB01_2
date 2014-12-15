@@ -9,22 +9,18 @@ ResourceController::~ResourceController(void)
 {
 }
 
-void ResourceController::OpenFile()
+void ResourceController::OpenFile(std::string path)
 {
 	//implementatie
 	std::ofstream outfile;
-	outfile.open("C:/Users/Ashwin/Desktop/Project_KB01_2/Resource/Textures/banana.bmp", std::ios_base::app);
+	outfile.open(path, std::ios_base::app);
 	
 }
-void ResourceController::CloseFile()
+void ResourceController::DeleteFile(Resource*)
 {
 	//implementatie
 }
-void ResourceController::DeleteFile(Resource)
-{
-	//implementatie
-}
-void ResourceController::SearchFile()
+void ResourceController::SearchFile(std::string)
 {
 	//implementatie
 }

@@ -124,3 +124,8 @@
 [12/11/14 15:09:10] Init de window
 [12/11/14 15:16:52] Init de window
 [12/11/14 15:25:47] Init de window
+[12/11/14 15:29:29] Init de window
+[12/12/14 11:30:14] Init de window
+[12/12/14 12:18:24] Init de window
+[12/12/14 12:19:24] Init de window
+[12/12/14 12:20:38] Init de window
