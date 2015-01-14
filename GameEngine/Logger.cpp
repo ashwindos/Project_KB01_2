@@ -5,13 +5,14 @@
 #include <iomanip>
 #include <ctime>
 
-Logger::Logger(void)
+Logger::Logger()
 {
+
 }
 
-
-Logger::~Logger(void)
+Logger::~Logger()
 {
+
 }
 
 void Logger::Log(std::string _text)
@@ -24,7 +25,6 @@ void Logger::Log(std::string _text)
 	outfile << '[' << std::put_time(&tm, "%c") << "] " << _text << std::endl;
 }
 
-
 void Logger::Log(int _text)
 {
 	std::ofstream outfile;
@@ -36,6 +36,16 @@ void Logger::Log(int _text)
 }
 
 void Logger::Log(float _text)
+{
+	std::ofstream outfile;
+	outfile.open("log.txt", std::ios_base::app);
+	// Write the time before each log
+	std::time_t t = std::time(NULL);
+    std::tm tm = *std::localtime(&t);
+	outfile << '[' << std::put_time(&tm, "%c") << "] " << _text << std::endl;
+}
+
+void Logger::Log(char _text)
 {
 	std::ofstream outfile;
 	outfile.open("log.txt", std::ios_base::app);

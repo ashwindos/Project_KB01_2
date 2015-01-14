@@ -1,6 +1,8 @@
-#ifndef __LOGGER_H_
-#define __LOGGER_H_
+#ifndef LOGGER_H
+#define LOGGER_H
+
 #include <string>
+#include <Windows.h>
 
 class Logger
 {
@@ -16,5 +18,9 @@ public:
 	
 	/// Appends a float to log.txt, includes the time of the log.
 	void Log(float);
+
+	/// Appends a char to log.txt, includes the time of the log.
+	void Log(char);
 };
+
 #endif

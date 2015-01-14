@@ -1,16 +1,29 @@
-#ifndef __WINDOWCONTROLLER_H_
-#define __WINDOWCONTROLLER_H_
+#ifndef WINDOWCONTROLLER_H
+#define WINDOWCONTROLLER_H
+
 #include "Window.h"
-#include <vector>
+#include "Logger.h"
 #include <Windows.h>
 
 class WindowController
 {
 public:
-	WindowController(void);
+	WindowController(HINSTANCE*);
 	~WindowController(void);
-	void MakeWindow(HINSTANCE,int);
+
+	/// Make a new window and store it.
+	int MakeWindow(LPCWSTR, int);
+
+	/// Launch a window that has been made.
+	int LaunchWindow(int);
+
+	/// Returns a pointer to a window.
+	Window* GetWindow(int);
+
+	Window* windows[8];
 private:
-	std::vector<Window*>* Windows;
+	Logger* logger;
+	HINSTANCE* hInstance;
 };
+
 #endif
