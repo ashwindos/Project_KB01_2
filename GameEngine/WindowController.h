@@ -19,11 +19,11 @@ public:
 
 	/// Returns a pointer to a window.
 	Window* GetWindow(int);
-
-	Window* windows[8];
+	
 private:
 	Logger* logger;
 	HINSTANCE* hInstance;
+	Window* windows[8];
 };
 
 #endif

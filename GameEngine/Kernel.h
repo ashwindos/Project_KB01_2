@@ -29,7 +29,7 @@ public:
 
 private:
 	/// Add a new renderer with a string as the key.
-	void AddRenderer(std::string, Renderer*);
+	int AddRenderer(std::string, Renderer*);
 
 	/// This function is called whenever the game updates in the game loop.
 	int OnGameUpdate(void);

@@ -3,6 +3,7 @@
 #include "DirectX.h"
 #include "Window.h"
 #include "Logger.h"
+#include "Camera.h"
 #include <iostream>
 #include <Windows.h>
 #include <process.h>
@@ -100,9 +101,10 @@ int Kernel::LogNewSession()
 	return 1;
 }
 
-void Kernel::AddRenderer(std::string key, Renderer* r)
+int Kernel::AddRenderer(std::string key, Renderer* r)
 {
 	(*Renderers)[key] = r;
+	return 1;
 }
 
 Renderer* Kernel::GetRenderer(std::string key)

@@ -56,3 +56,15 @@ void Camera ::rotateY(float angle)
 	up = forward->getCrossProduct(hAxis);
 	up->normalize();
 }
+
+int Camera::OnKeyboardInputRecieved(char keyboardState[256])
+{
+	// Do whatever with the keyboard state.
+	return 1;
+}
+
+int Camera::OnMouseInputRecieved(DIMOUSESTATE mouseState)
+{
+	// Do whatever with the mouse state.
+	return 1;
+}

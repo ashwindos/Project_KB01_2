@@ -2,15 +2,20 @@
 #define __CAMERA_H_
 #include "Entity.h"
 #include "Vector3D.h"
+#include "InputReciever.h"
 
-class Camera : public Entity
+class Camera : public Entity, public InputReciever
 {
 public:
 	/// The constructer that needs a vector in the forward direction, up direction and an position of the camera
 	Camera(Vector3D* pos,Vector3D* forw,Vector3D* upw);
 	~Camera(void); 
+
 	/// Moves the camera/world 
 	void move(Vector3D* dir, float amount);
+
+	int OnKeyboardInputRecieved(char[]);
+	int OnMouseInputRecieved(DIMOUSESTATE);
 private:
 	Vector3D* posistion;
 	Vector3D* forward;

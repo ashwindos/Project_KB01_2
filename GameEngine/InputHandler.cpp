@@ -108,7 +108,7 @@ int InputHandler::HandleKeyboardInput()
 	}
 
 	// Let the input reciever take care of what happens.
-	inputReciever->OnKeyboardInputRecieved(keyboardState);
+	// inputReciever->OnKeyboardInputRecieved(keyboardState); <- uncomment later
 
 	return 1;
 }
@@ -131,7 +131,7 @@ int InputHandler::HandleMouseInput()
 	}
 
 	// Let the input reciever take care of what happens.
-	inputReciever->OnMouseInputRecieved(mouseState);
+	// inputReciever->OnMouseInputRecieved(mouseState); <- uncomment later
 
 	return 1;
 }
