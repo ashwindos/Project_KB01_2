@@ -4,6 +4,7 @@
 #include <Windows.h>
 #include <dinput.h>
 #include "Logger.h"
+#include "InputReciever.h"
 
 class InputHandler
 {
@@ -13,6 +14,9 @@ public:
 
 	/// Detects keyboard (and mouse) input and decides how to handle it.
 	int HandleInput(void);
+
+	/// Set the object that wants to recieve input.
+	int SetInputReciever(InputReciever*);
 
 private:
 	/// The DirectInput device.
@@ -44,6 +48,9 @@ private:
 
 	/// Handle any mouse input.
 	int HandleMouseInput(void);
+
+	/// Give input to the input reciever.
+	InputReciever* inputReciever;
 };
 
 #endif

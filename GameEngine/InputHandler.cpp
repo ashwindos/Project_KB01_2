@@ -101,18 +101,14 @@ int InputHandler::HandleKeyboardInput()
 	);
 
     if (FAILED(hr))    
-	{        
-		logger->Log("DirectInput: Keyboard lost, attempting to reacquire.");
+	{
 		// Reacquire the keyboard in case we lost it.      
 		dikeyboard->Acquire();
 		return 0;
 	}
 
-	// Log when the user presses spacebar.
-	if (KEYDOWN(keyboardState, DIK_SPACE))
-	{
-		logger->Log("DirectInput: Spacebar pressed");
-	}
+	// Let the input reciever take care of what happens.
+	inputReciever->OnKeyboardInputRecieved(keyboardState);
 
 	return 1;
 }
@@ -128,12 +124,20 @@ int InputHandler::HandleMouseInput()
 	);
 
 	if (FAILED(hr))    
-	{        
-		logger->Log("DirectInput: Mouse lost, attempting to reacquire.");
+	{
 		// Reacquire the keyboard in case we lost it.      
 		dimouse->Acquire();
 		return 0;
 	}
 
+	// Let the input reciever take care of what happens.
+	inputReciever->OnMouseInputRecieved(mouseState);
+
+	return 1;
+}
+
+int InputHandler::SetInputReciever(InputReciever* i)
+{
+	inputReciever = i;
 	return 1;
 }
