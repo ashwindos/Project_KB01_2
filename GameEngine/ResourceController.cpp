@@ -1,7 +1,8 @@
 #include "ResourceController.h"
 
 ResourceController::ResourceController(void)
-{
+{	loader = new Loader();
+	
 }
 
 
@@ -24,4 +25,10 @@ void ResourceController::SearchFile(std::string)
 {
 	//implementatie
 }
+void ResourceController :: makeNewResource(LPCTSTR filename)
+{
+	HANDLE handle =
+	loader->Load(filename);
+}
+
 

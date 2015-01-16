@@ -8,8 +8,11 @@
 #include <ctime>
 #include <Windows.h>
 #include <map>
+#include "Loader.h"
 class ResourceController
 {
+public:
+
 public:
 
 	ResourceController(void);
@@ -20,7 +23,9 @@ public:
 	bool isLoaded(std::string);
 
 private:
-	std::map<std::string, Resource*> _LoadedResources;
+	Loader *loader;
+	//makes a resource
+	void makeNewResource(LPCTSTR filename);
 	void addToloadedResources(std::string, Resource*);
 	void deleteFromLoadedResources(std::string);
 	void searchInloadedResources(std::string);
